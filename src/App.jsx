@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './Components/HomePage';
 import MoviePage from './Components/Movie';
 
@@ -28,7 +28,7 @@ function App() {
 
     return (
         <div className='App'>
-            <BrowserRouter>
+            <HashRouter>
                 <Routes>
                     <Route path='/' element={<HomePage topMovies={getTopMovies()} />} />
                     <Route path='/homepage' element={<HomePage topMovies={getTopMovies()} />} />
@@ -42,7 +42,7 @@ function App() {
                         );
                     })}
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 }

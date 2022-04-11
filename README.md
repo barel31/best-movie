@@ -1,0 +1,1 @@
+React app that show movies with top3 and rates feature

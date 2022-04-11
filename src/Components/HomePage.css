@@ -1,0 +1,17 @@
+.MovieTop {
+    width: 300px;
+    height: 300px;
+    margin: 2vh auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+:link {
+    color: white;
+}
+
+:visited {
+    color: white;
+}

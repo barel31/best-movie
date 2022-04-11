@@ -1,0 +1,36 @@
+.InfoFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Rating {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 500px;
+    margin: 2vh auto 10vh;
+}
+.Rating div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 4em;
+    background-color: wheat;
+}
+
+.MoviesList {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.MovieBoxItem {
+    width: 100px;
+    height: 100px;
+    margin: 1vh;
+}
